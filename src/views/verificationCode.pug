@@ -1,0 +1,15 @@
+extends base
+
+block content
+  p Olá #{firstName},
+  p Você só conseguirá realizar login após confirmar o link de verificação em seu e-mail
+  table.btn.btn-primary(role='presentation' border='0' cellpadding='0' cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation' border='0' cellpadding='0' cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href=`${url}` target='_blank') Verificar sua conta
+  p Boa sorte!.
