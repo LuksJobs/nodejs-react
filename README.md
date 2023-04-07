@@ -15,8 +15,7 @@ Projeto Node.js com TypeScript, ExpressJs, PostgreSQL, TypeORM, Redis e Docker.
 Antes de tudo é necessário fornecer as credenciais necessárias à imagem do PostgreSQL Docker, para isso precisamos criar um .env no diretório raiz. O arquivo de exemplo é o "exemploconexaodb".
 
 ```
-$ touch .env (copiar o texto )
-$ make dev 
+$ make env 
 ```
 O comando "make" quando íniciado faz com que os dois containers "postgresql e redis" rodem no ambiente docker, setados com as configurações nas variáveis para se conectarem a nossa API;
 
