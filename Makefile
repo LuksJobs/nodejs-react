@@ -1,3 +1,6 @@
+env:
+	mv dotenv .env
+
 #reponsável por subir os dois containers em docker
 dev:
 	docker-compose up -d
